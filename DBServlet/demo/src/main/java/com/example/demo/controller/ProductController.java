@@ -14,7 +14,7 @@ public class ProductController {
 
     @PostMapping("/send")
     public void postMethod() {
-        
+        return;
     }
 
 }
