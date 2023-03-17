@@ -1,6 +1,6 @@
-package io.bootify.my_app.repos;
+package lt.kvk.i17.chursin_jevgenij.application.repository;
 
-import io.bootify.my_app.domain.Model;
+import lt.kvk.i17.chursin_jevgenij.application.domain.Model;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

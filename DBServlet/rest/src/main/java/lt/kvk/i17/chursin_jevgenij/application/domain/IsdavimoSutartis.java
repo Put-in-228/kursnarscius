@@ -1,4 +1,4 @@
-package io.bootify.my_app.domain;
+package lt.kvk.i17.chursin_jevgenij.application.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -37,8 +37,6 @@ public class IsdavimoSutartis {
     @JoinColumn(name = "fk_vartotojas_id", nullable = false)
     private Vartotojas fkVartotojas;
 
-    @OneToMany(mappedBy = "fkIsdavimoSutartis")
-    private Set<IsdavimoTransporto> fkIsdavimoSutartisIsdavimoTransportos;
 
     public Integer getId() {
         return id;
@@ -86,15 +84,6 @@ public class IsdavimoSutartis {
 
     public void setFkVartotojas(final Vartotojas fkVartotojas) {
         this.fkVartotojas = fkVartotojas;
-    }
-
-    public Set<IsdavimoTransporto> getFkIsdavimoSutartisIsdavimoTransportos() {
-        return fkIsdavimoSutartisIsdavimoTransportos;
-    }
-
-    public void setFkIsdavimoSutartisIsdavimoTransportos(
-            final Set<IsdavimoTransporto> fkIsdavimoSutartisIsdavimoTransportos) {
-        this.fkIsdavimoSutartisIsdavimoTransportos = fkIsdavimoSutartisIsdavimoTransportos;
     }
 
 }

@@ -1,4 +1,4 @@
-package io.bootify.my_app.domain;
+package lt.kvk.i17.chursin_jevgenij.application.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -30,8 +30,6 @@ public class Model {
     @JoinColumn(name = "fk_manufacturer_id", nullable = false)
     private Manufacturer fkManufacturer;
 
-    @OneToMany(mappedBy = "fkModel")
-    private Set<TransportoPriemone> fkModelTransportoPriemones;
 
     public Integer getId() {
         return id;
@@ -63,15 +61,6 @@ public class Model {
 
     public void setFkManufacturer(final Manufacturer fkManufacturer) {
         this.fkManufacturer = fkManufacturer;
-    }
-
-    public Set<TransportoPriemone> getFkModelTransportoPriemones() {
-        return fkModelTransportoPriemones;
-    }
-
-    public void setFkModelTransportoPriemones(
-            final Set<TransportoPriemone> fkModelTransportoPriemones) {
-        this.fkModelTransportoPriemones = fkModelTransportoPriemones;
     }
 
 }

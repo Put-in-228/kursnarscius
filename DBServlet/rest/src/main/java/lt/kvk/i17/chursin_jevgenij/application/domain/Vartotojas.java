@@ -1,15 +1,13 @@
-package io.bootify.my_app.domain;
+package lt.kvk.i17.chursin_jevgenij.application.domain;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
+import lombok.ToString;
+
 import java.util.Set;
 
 
 @Entity
+@ToString
 public class Vartotojas {
 
     @Id
@@ -28,15 +26,6 @@ public class Vartotojas {
 
     @Column
     private String password;
-
-    @OneToMany(mappedBy = "fkVartotojas")
-    private Set<IsdavimoSutartis> fkVartotojasIsdavimoSutartiss;
-
-    @OneToMany(mappedBy = "fkVartotojas")
-    private Set<NuomosSutartis> fkVartotojasNuomosSutartiss;
-
-    @OneToMany(mappedBy = "fkVartotojas")
-    private Set<TransportoPazeidimai> fkVartotojasTransportoPazeidimais;
 
     public Integer getId() {
         return id;
@@ -76,33 +65,6 @@ public class Vartotojas {
 
     public void setPassword(final String password) {
         this.password = password;
-    }
-
-    public Set<IsdavimoSutartis> getFkVartotojasIsdavimoSutartiss() {
-        return fkVartotojasIsdavimoSutartiss;
-    }
-
-    public void setFkVartotojasIsdavimoSutartiss(
-            final Set<IsdavimoSutartis> fkVartotojasIsdavimoSutartiss) {
-        this.fkVartotojasIsdavimoSutartiss = fkVartotojasIsdavimoSutartiss;
-    }
-
-    public Set<NuomosSutartis> getFkVartotojasNuomosSutartiss() {
-        return fkVartotojasNuomosSutartiss;
-    }
-
-    public void setFkVartotojasNuomosSutartiss(
-            final Set<NuomosSutartis> fkVartotojasNuomosSutartiss) {
-        this.fkVartotojasNuomosSutartiss = fkVartotojasNuomosSutartiss;
-    }
-
-    public Set<TransportoPazeidimai> getFkVartotojasTransportoPazeidimais() {
-        return fkVartotojasTransportoPazeidimais;
-    }
-
-    public void setFkVartotojasTransportoPazeidimais(
-            final Set<TransportoPazeidimai> fkVartotojasTransportoPazeidimais) {
-        this.fkVartotojasTransportoPazeidimais = fkVartotojasTransportoPazeidimais;
     }
 
 }

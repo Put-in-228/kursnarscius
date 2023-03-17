@@ -1,4 +1,4 @@
-package io.bootify.my_app.domain;
+package lt.kvk.i17.chursin_jevgenij.application.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -38,15 +38,6 @@ public class TransportoPriemone {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "fk_model_id", nullable = false)
     private Model fkModel;
-
-    @OneToMany(mappedBy = "fkTransportoPriemone")
-    private Set<NuomosTrasporto> fkTransportoPriemoneNuomosTrasportos;
-
-    @OneToMany(mappedBy = "fkTransportoPriemone")
-    private Set<IsdavimoTransporto> fkTransportoPriemoneIsdavimoTransportos;
-
-    @OneToMany(mappedBy = "fkTransportoPriemone")
-    private Set<TransportoPazeidimai> fkTransportoPriemoneTransportoPazeidimais;
 
     public Integer getId() {
         return id;
@@ -102,33 +93,6 @@ public class TransportoPriemone {
 
     public void setFkModel(final Model fkModel) {
         this.fkModel = fkModel;
-    }
-
-    public Set<NuomosTrasporto> getFkTransportoPriemoneNuomosTrasportos() {
-        return fkTransportoPriemoneNuomosTrasportos;
-    }
-
-    public void setFkTransportoPriemoneNuomosTrasportos(
-            final Set<NuomosTrasporto> fkTransportoPriemoneNuomosTrasportos) {
-        this.fkTransportoPriemoneNuomosTrasportos = fkTransportoPriemoneNuomosTrasportos;
-    }
-
-    public Set<IsdavimoTransporto> getFkTransportoPriemoneIsdavimoTransportos() {
-        return fkTransportoPriemoneIsdavimoTransportos;
-    }
-
-    public void setFkTransportoPriemoneIsdavimoTransportos(
-            final Set<IsdavimoTransporto> fkTransportoPriemoneIsdavimoTransportos) {
-        this.fkTransportoPriemoneIsdavimoTransportos = fkTransportoPriemoneIsdavimoTransportos;
-    }
-
-    public Set<TransportoPazeidimai> getFkTransportoPriemoneTransportoPazeidimais() {
-        return fkTransportoPriemoneTransportoPazeidimais;
-    }
-
-    public void setFkTransportoPriemoneTransportoPazeidimais(
-            final Set<TransportoPazeidimai> fkTransportoPriemoneTransportoPazeidimais) {
-        this.fkTransportoPriemoneTransportoPazeidimais = fkTransportoPriemoneTransportoPazeidimais;
     }
 
 }

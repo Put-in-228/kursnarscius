@@ -1,4 +1,4 @@
-package io.bootify.my_app.domain;
+package lt.kvk.i17.chursin_jevgenij.application.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
