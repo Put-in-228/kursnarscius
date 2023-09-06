@@ -16,7 +16,7 @@ class VartotojasRepositoryTest {
     @Autowired
     private VartotojasRepository vartotojasRepository;
 
-    //@Test
+    @Test
     void saveMethod() {
         //create Entity
         Vartotojas vartotojas = new Vartotojas();

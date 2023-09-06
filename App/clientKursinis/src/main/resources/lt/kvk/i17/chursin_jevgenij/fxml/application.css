@@ -1,0 +1,17 @@
+.button-selected {
+    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.button-deselected {
+    -fx-border-color: #1d74d1;
+    -fx-background-color: #1d74d1;
+}
+
+.button-deselected:hover {
+    -fx-border-color: #184e87;
+    -fx-background-color: #184e87;
+}
+
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */

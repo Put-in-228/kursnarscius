@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="350.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lt.kvk.i17.chursin_jevgenij.clientkursinis.application.http.util.httpreqs.fxmlcontrollers.ForgotContentController">
+   <children>
+      <Button layoutX="14.0" layoutY="262.0" mnemonicParsing="false" onAction="#forBtnRecover" prefHeight="35.0" prefWidth="122.0" style="-fx-border-color: #1d74d1; -fx-background-color: #1d74d1; -fx-border-radius: 10;" text="Atkurti" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="ARROW_RIGHT" size="20" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="14.0" layoutY="201.0" prefHeight="40.0" prefWidth="213.0" style="-fx-border-style: hidden hidden solid hidden; -fx-border-width: 5; -fx-border-color: #b34646;">
+         <children>
+            <HBox layoutY="1.0" prefHeight="37.0" prefWidth="202.0" style="-fx-border-color: gray;">
+               <children>
+                  <AnchorPane prefHeight="33.0" prefWidth="33.0" style="-fx-border-color: gray; -fx-border-width: 1; -fx-background-color: #ededed; -fx-border-style: hidden solid hidden hidden;">
+                     <children>
+                        <FontAwesomeIconView glyphName="ADDRESS_BOOK_ALT" layoutX="5.0" layoutY="26.0" size="25" />
+                     </children>
+                  </AnchorPane>
+                  <TextField fx:id="forEmail" prefHeight="35.0" prefWidth="166.0" promptText="Elektroninis paštas *" style="-fx-border-color: gray; -fx-background-color: #ebf4ff; -fx-border-style: hidden hidden hidden solid;" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="135.0" prefHeight="49.0" prefWidth="322.0" style="-fx-border-style: hidden hidden solid hidden; -fx-border-width: 5; -fx-border-color: #1d74d1;" text="Žemiau esančiame lauke nurodykite registracijos metu panaudotą elektroninį paštą:" wrapText="true" />
+   </children>
+</AnchorPane>
