@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64d7e2d6-b90c-40e3-91f1-d67c3f5dba6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesomefx-commons-9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesomefx-fontawesome-4.7.0-9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/Runtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/client/ClientHttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/BasicJsonConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/DataParserer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/HttpRequestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/ImageJsonConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/QuickResponseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/NewRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/NewRequestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/RequestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/RequestDataFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/UserForgotRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/UserForgotRequestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/UserLoginRequestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/UserRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/data/UserRegisterRequestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/httpreqs/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/httpreqs/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/httpreqs/GetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/httpreqs/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/httpreqs/PutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/application/http/util/httpreqs/RequestInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/ForgotContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/LoginContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/MainSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/NewContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/RegisterContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/StartSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/scenemisc/startmisc/ForgotState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/scenemisc/startmisc/LoginState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/scenemisc/startmisc/RegisterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/scenemisc/startmisc/StartScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/fxmlcontrollers/scenemisc/startmisc/StartSceneState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/storage/HttpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/storage/StorageMisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/content/ForgotContent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/content/LoginContent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/content/NewContent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/content/PersonalContent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/content/ProfileContent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/content/RegisterContent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/content/SearchContent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/scenes/MainScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lt/kvk/i17/chursin_jevgenij/fxml/scenes/StartScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lt/kvk/i17/chursin_jevgenij/clientkursinis/application/http/util/httpreqs/RequestInvokerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/models/ForgotModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/models/LoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/models/NewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/models/RegisterModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/service/VartotojasService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBServlet/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBServlet/rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/controller/RestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/controller/RestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/repository/VartotojasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/main/java/lt/kvk/i17/chursin_jevgenij/application/repository/VartotojasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBServlet/rest/src/test/java/lt/kvk/i17/chursin_jevgenij/application/repository/VartotojasRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBServlet/rest/src/test/java/lt/kvk/i17/chursin_jevgenij/application/repository/VartotojasRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBServlet/restapi/src/main/java/lt/kvk/i17/chursin_jevgenij/application/controller/Controller.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2O6CGB8Yvi4ljQ2XWKbm4NNZUiF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/IT/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.44942528",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lt.kvk.i17.chursin_jevgenij.clientkursinis.fxmlcontrollers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IT\Desktop\kursinis\kursnarscius\App\clientKursinis\libs" />
+      <recent name="C:\Users\IT\Desktop\kursinis\kursnarscius\App\clientKursinis\src\main\resources\lt\kvk\i17\chursin_jevgenij\fxml\content" />
+      <recent name="C:\Users\IT\Desktop\kursinis\kursnarscius\App\clientKursinis\src\main\resources\lt\kvk\i17\chursin_jevgenij\fxml\scenes" />
+      <recent name="C:\Users\IT\Desktop\kursinis\kursnarscius\App\clientKursinis\src\main\resources\lt\kvk\i17\chursin_jevgenij\fxml" />
+      <recent name="C:\Users\IT\Desktop\kursinis\kursnarscius\App\clientKursinis\src\main\resources\lt\kvk\i17\chursin_jevgenij\clientkursinis" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RequestInvokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clientKursinis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.kvk.i17.chursin_jevgenij.clientkursinis.application.http.util.httpreqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.kvk.i17.chursin_jevgenij.clientkursinis.application.http.util.httpreqs" />
+      <option name="MAIN_CLASS_NAME" value="lt.kvk.i17.chursin_jevgenij.clientkursinis.application.http.util.httpreqs.RequestInvokerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RequestInvokerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64d7e2d6-b90c-40e3-91f1-d67c3f5dba6d" name="Changes" comment="" />
+      <created>1680871552800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680871552800</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clientKursinis$Runtime.ic" NAME="Runtime Coverage Results" MODIFIED="1693782116376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lt.kvk.i17.chursin_jevgenij.clientkursinis.application.*</FILTER>
+    </SUITE>
+  </component>
+</project>
